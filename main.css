@@ -1,0 +1,116 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#header{
+
+    font-family: cursive;
+    margin-bottom: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+
+a{
+
+    text-decoration: none;
+    color: #E25C00;
+
+}
+
+.navigation{
+
+    background-color: #000000;
+    padding-left: 900px;
+    word-spacing: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+
+}
+
+.home_container{
+
+    background-color: orange;
+    width: 100%;
+    height: 40vh;
+    /*background-image: url(./img/people\ smiling.jpg);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/people\ smiling.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about_container{
+
+
+    background-color: orange;
+    width: 100%;
+    height: 40vh;
+    /*background-image: url(./img/people\ smiling.jpg);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/about\ us.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.product_container{
+
+    background-color: orange;
+    width: 100%;
+    height: 40vh;
+    /*background-image: url(./img/people\ smiling.jpg);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Our\ product.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact_container{
+
+    background-color: orange;
+    width: 100%;
+    height: 40vh;
+    /*background-image: url(./img/people\ smiling.jpg);*/
+    background: linear-gradient(rgba(82, 79, 79, 0.5), rgba(85, 83, 83, 0.5)), url(/img/Contact\ Us.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#images{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+
+    /*background: rgb(0, 0, 0);*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/main_bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#Home_tab{
+
+    margin: 280px;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+    font-size: 1.2rem;
+}
+
+.Section_headers{
+
+    margin-left: -80px;
+    font-size: 2rem;
+    color: rgb(238, 255, 1);
+
+}
+
+
